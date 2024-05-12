@@ -15,3 +15,10 @@ console.log(Id)
 console.log(userName)
 console.log(userEmail)
 console.log(userCity)
+
+console.table([{
+    Id: Id,
+    userEmail: userEmail,
+    userName: userName,
+    userCity: userCity
+}]);
